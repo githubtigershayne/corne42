@@ -50,7 +50,7 @@
 
         right {
             bindings = <&kp RIGHT>;
-            key-positions = <15 16>;
+            key-positions = <14 15>;
         };
 
         left {
@@ -60,17 +60,27 @@
 
         up {
             bindings = <&kp UP_ARROW>;
-            key-positions = <3 15>;
+            key-positions = <2 14>;
         };
 
         down {
             bindings = <&kp DOWN>;
-            key-positions = <27 15>;
+            key-positions = <14 26>;
         };
 
         leftbspc {
             bindings = <&kp BACKSPACE>;
             key-positions = <0 1>;
+        };
+
+        greater {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <12 13>;
+        };
+
+        less {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <24 25>;
         };
     };
 
