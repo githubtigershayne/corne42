@@ -17,6 +17,21 @@
             key-positions = <18 19>;
             layers = <0>;
         };
+
+        bkt {
+            bindings = <&mt LBKT RBKT>;
+            key-positions = <5 4>;
+        };
+
+        par {
+            bindings = <&mt LPAR RPAR>;
+            key-positions = <17 16>;
+        };
+
+        brc {
+            bindings = <&mt LBRC RBRC>;
+            key-positions = <29 28>;
+        };
     };
 
     keymap {
