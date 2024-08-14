@@ -32,6 +32,41 @@
             bindings = <&mt LBRC RBRC>;
             key-positions = <29 28>;
         };
+
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <15 16>;
+        };
+
+        at {
+            bindings = <&kp AT>;
+            key-positions = <12 13>;
+        };
+
+        tag {
+            bindings = <&kp HASH>;
+            key-positions = <5 17>;
+        };
+
+        right {
+            bindings = <&kp RIGHT>;
+            key-positions = <15 16>;
+        };
+
+        left {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <13 14>;
+        };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <3 15>;
+        };
+
+        down {
+            bindings = <&kp DOWN>;
+            key-positions = <27 15>;
+        };
     };
 
     keymap {
@@ -45,10 +80,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&lt 2 ESC       &kp Q               &kp W           &kp E        &kp R         &kp T               &kp Y      &kp U  &kp I          &kp O    &kp P     &kp MINUS
-&kp LEFT_SHIFT  &mt LEFT_CONTROL A  &mt LEFT_ALT S  &kp D        &kp F         &kp G               &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp EQUAL
-&lt 2 CAPS      &mt LEFT_CONTROL Z  &kp X           &mt LC(C) C  &mt LC(V) V   &kp B               &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp ENTER
-                                                    &kp SPACE    &kp LEFT_ALT  &kp LEFT_COMMAND    &kp SPACE  &mo 1  &kp BACKSPACE
+&lt 1 ESC       &kp Q               &kp W           &kp E        &kp R         &kp T           &kp Y          &kp U  &kp I             &kp O                &mt PRINTSCREEN P             &mt UNDER MINUS
+&kp LEFT_SHIFT  &mt LEFT_CONTROL A  &mt LEFT_ALT S  &kp D        &kp F         &kp G           &kp H          &kp J  &kp K             &kp L                &mt DOUBLE_QUOTES APOSTROPHE  &mt EQUAL PLUS
+&lt 2 CAPS      &mt LEFT_CONTROL Z  &kp X           &mt LC(C) C  &mt LC(V) V   &kp B           &kp N          &kp M  &mt PERIOD COMMA  &mt SEMICOLON COLON  &mt BSLH FSLH                 &mt QMARK EXCL
+                                                    &kp SPACE    &kp LEFT_ALT  &kp LEFT_GUI    &kp BACKSPACE  &mo 3  &kp SPACE
             >;
         };
 
