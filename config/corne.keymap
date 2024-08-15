@@ -9,10 +9,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 
-#define DEF_L 0
-#define SYS_L 1
-#define SYM_L 2
-#define NUM_L 3
 
 
 
@@ -210,7 +206,7 @@
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LCTRL  &kp GRAVE &kp     &kp       &kp        &kp       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT  &kp TILDE &kp     &kp       &kp        &kp      &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-&kp SPACE  &kp BACKSPACE    &kp LEFT_GUI   &kp ENTER    &kp DELETE     &kp SPACE
+&kp SPACE  &kp BACKSPACE    &LEFT_GUI   &kp ENTER    &kp DELETE     &kp SPACE
             >;
         };
 
@@ -219,7 +215,7 @@
 &kp TAB         &kp MINUS    &kp N0           &kp N7        &kp N8      &kp N9          &kp        &kp            &kp        &kp  &kp  &kp
 &kp LEFT_SHIFT  &kp PLUS     &kp KP_MULTIPLY  &kp NUMBER_4  &kp N5      &kp NUMBER_6    &kp        &kp            &kp        &kp  &kp  &kp
 &kp SLASH       &kp PERCENT  &kp KP_EQUAL     &kp NUMBER_1  &kp N2      &kp NUMBER_3    &kp        &kp            &kp        &kp  &kp  &kp
-&kp SPACE  &kp BACKSPACE    &kp LEFT_GUI   &kp ENTER    &kp DELETE     &kp SPACE
+&kp SPACE  &kp BACKSPACE    &LEFT_GUI   &kp ENTER    &kp DELETE     &kp SPACE
             >;
         };
 };
