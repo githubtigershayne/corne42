@@ -85,9 +85,9 @@
     };
 
     behaviors {
-        holdtap: holdtap {
+        pht: pht {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOLDTAP";
+            label = "PHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
